@@ -18,7 +18,7 @@ if is_run_with_cmd:
     ensure_url_arg()
     playlist_url = sys.argv[1]
 else:
-    playlist_url = 'https://www.youtube.com/playlist?list=PLAv3wwZw7pE2-CvBZZUe2sCu0p50dPUCW'
+    playlist_url = '<your youtube playlist url here>'
     
 mp3_output_folder = './mp3_songs'
 Path(mp3_output_folder).mkdir(parents=True, exist_ok=True)
