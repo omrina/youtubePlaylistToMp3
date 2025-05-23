@@ -12,7 +12,7 @@ def downloadFile(title):
 def generateTitle():
     return ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
 
-playlist_url = "https://youtube.com/playlist?list=PLehZkrctaCJdOpWk3fgbrw-5M1mPUVoen"
+playlist_url = "https://www.youtube.com/watch?v=OJPLBUz3YVs&list=PLJJaZUDfc5LWYyV0T5i99Ef45UxVf8bcr"
 
 mp3_output_folder = r"C:\Users\cgc\PycharmProjects\DiscBurn\mp3_songs_tuna_and_nechi"
 mp4_output_folder = r"C:\Users\cgc\PycharmProjects\DiscBurn\mp4_videos_tuna_and_nechi"
